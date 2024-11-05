@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"a2b012f7f9d54eb4893abb834cb9bee4","collectionName":"GameSessionDump","type":"collection"}

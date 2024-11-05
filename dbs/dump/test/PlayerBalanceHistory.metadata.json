@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"4de550730d1248e5877a826bb67ee9f0","collectionName":"PlayerBalanceHistory","type":"collection"}
