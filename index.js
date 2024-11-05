@@ -9,10 +9,10 @@ import http from 'http';
 
 export const config = {
   databaseURI:
-    process.env.DATABASE_URI || process.env.MONGODB_URI || 'mongodb://localhost:27017/dev',
+    process.env.DATABASE_URI || process.env.MONGODB_URI || 'mongodb://localhost:27017/test',
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
-  appId: process.env.APP_ID || 'myAppId',
-  masterKey: process.env.MASTER_KEY || '', //Add your master key here. Keep it secret!
+  appId: process.env.APP_ID || 'f8sqXPLdtN0BsldkoDAL0PHVZxkG2tnnS6pf7j22',
+  masterKey: process.env.MASTER_KEY || 'OOEOpTIMDX81qrrtESik62nCOzY85z7GFQKOoimm', //Add your master key here. Keep it secret!
   serverURL: process.env.SERVER_URL || 'http://localhost:1337/parse', // Don't forget to change to https if needed
   liveQuery: {
     classNames: ['Posts', 'Comments'], // List of classes to support for query subscriptions
